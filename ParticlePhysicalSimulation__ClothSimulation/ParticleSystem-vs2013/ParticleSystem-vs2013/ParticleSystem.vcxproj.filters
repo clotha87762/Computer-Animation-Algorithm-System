@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Image">
+      <UniqueIdentifier>{9c56e0de-5c26-4e25-b050-b20a702f6b77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL">
+      <UniqueIdentifier>{704adce2-f6b6-4824-b035-b9efb0f9e1f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{df6be0ec-cffb-4475-b5f2-67e83cbb96f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{788ed210-3144-4882-a842-3e4717dcdb34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MassSpringSystem">
+      <UniqueIdentifier>{7da04537-a358-493f-bf6f-5adb52a612bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{13838a05-8bae-47c9-b775-0cacc994e0e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Image\CBmp.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL\CCamera.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\performanceCounter.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\stdafx.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector3d.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MassSpringSystem\CParticle.cpp">
+      <Filter>MassSpringSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="MassSpringSystem\CSpring.cpp">
+      <Filter>MassSpringSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Config\configFile.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystemMain.cpp" />
+    <ClCompile Include="MassSpringSystem\CMassSpringSystem.cpp">
+      <Filter>MassSpringSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL\Render_API.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="MassSpringSystem\BallModel.cpp">
+      <Filter>MassSpringSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="MassSpringSystem\GoalNetModel.cpp">
+      <Filter>MassSpringSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Image\CBmp.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL\CCamera.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\performanceCounter.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\stdafx.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector3d.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Global_Var.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\glutFunction.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GUI.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Lighting.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="MassSpringSystem\CParticle.h">
+      <Filter>MassSpringSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="MassSpringSystem\CSpring.h">
+      <Filter>MassSpringSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Config\configFile.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="MassSpringSystem\CMassSpringSystem.h">
+      <Filter>MassSpringSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL\Render_API.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="MassSpringSystem\BallModel.h">
+      <Filter>MassSpringSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="MassSpringSystem\GoalNetModel.h">
+      <Filter>MassSpringSystem</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

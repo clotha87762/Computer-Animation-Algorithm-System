@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cc" />
+    <ClCompile Include="acclaim\acclaim_motion.cc">
+      <Filter>acclaim</Filter>
+    </ClCompile>
+    <ClCompile Include="acclaim\acclaim_skeleton.cc">
+      <Filter>acclaim</Filter>
+    </ClCompile>
+    <ClCompile Include="acclaim\posture.cc">
+      <Filter>acclaim</Filter>
+    </ClCompile>
+    <ClCompile Include="console\console_log.cc">
+      <Filter>console</Filter>
+    </ClCompile>
+    <ClCompile Include="geom\geom_arrow.cc">
+      <Filter>geom</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\gl_utils.cc">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\gui_display.cc">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\gui_gl_window.cc">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\gui_main_window.cc">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\gui_marker.cc">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\gui_mouse.cc">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\gui_mouse_event.cc">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\gui_screenshot.cc">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\gui_signal.cc">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\gui_utils.cc">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="kinematics\kinematics_artic_idx.cc">
+      <Filter>kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="kinematics\kinematics_forward.cc">
+      <Filter>kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="kinematics\kinematics_limb_ik.cc">
+      <Filter>kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="kinematics\kinematics_pose.cc">
+      <Filter>kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="math\math_utils.cc">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\lodepng.cpp">
+      <Filter>third_party</Filter>
+    </ClCompile>
+    <ClCompile Include="render\render_camera.cc">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\render_polar_rotation.cc">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\render_utils.cc">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="param\param_config.cc">
+      <Filter>param</Filter>
+    </ClCompile>
+    <ClCompile Include="param\param_holder.cc">
+      <Filter>param</Filter>
+    </ClCompile>
+    <ClCompile Include="param\param_xml_parser.cc">
+      <Filter>param</Filter>
+    </ClCompile>
+    <ClCompile Include="console\console_color.cc">
+      <Filter>console</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="acclaim">
+      <UniqueIdentifier>{4a44a667-5cab-4119-a8ec-58dfc1349609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="console">
+      <UniqueIdentifier>{91c360b7-bce2-443b-96cf-f0ecdb31a82c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geom">
+      <UniqueIdentifier>{2eef453f-b670-404d-b3e6-80d34126cc04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{7b7a81ec-64f3-4041-83c1-01207a8cf63e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kinematics">
+      <UniqueIdentifier>{6e039dc5-50a6-40a9-9ccf-38a1d5f10a21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{c48ee728-47ef-4c89-80ea-5da11daebb52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="param">
+      <UniqueIdentifier>{979f3bb0-d039-446d-8cf5-b64f718b332f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render">
+      <UniqueIdentifier>{b0eaacc2-ffbf-42d6-96b4-178c1859f97d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{38a5ecc4-0978-4ed5-9082-b40c606d733b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{35b935e3-5672-457e-a540-5a98103af590}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="acclaim\acclaim_body_idx.h">
+      <Filter>acclaim</Filter>
+    </ClInclude>
+    <ClInclude Include="acclaim\acclaim_bone.h">
+      <Filter>acclaim</Filter>
+    </ClInclude>
+    <ClInclude Include="acclaim\acclaim_motion.h">
+      <Filter>acclaim</Filter>
+    </ClInclude>
+    <ClInclude Include="acclaim\acclaim_skeleton.h">
+      <Filter>acclaim</Filter>
+    </ClInclude>
+    <ClInclude Include="acclaim\posture.h">
+      <Filter>acclaim</Filter>
+    </ClInclude>
+    <ClInclude Include="console\console_log.h">
+      <Filter>console</Filter>
+    </ClInclude>
+    <ClInclude Include="geom\geom_arrow.h">
+      <Filter>geom</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\gl_utils.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\gui_display.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\gui_gl_window.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\gui_main_window.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\gui_marker.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\gui_mouse.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\gui_mouse_event.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\gui_screenshot.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\gui_signal.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\gui_type.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\gui_utils.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="kinematics\kinematics_artic_idx.h">
+      <Filter>kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="kinematics\kinematics_forward.h">
+      <Filter>kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="kinematics\kinematics_limb_ik.h">
+      <Filter>kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="kinematics\kinematics_pose.h">
+      <Filter>kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="kinematics\kinematics_type.h">
+      <Filter>kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="math\math_col_vector_3d.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\math_col_vector_6d.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\math_homogeneous_transform.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\math_spatial_temporal_data.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\math_type.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\math_utils.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="third_party\lodepng.h">
+      <Filter>third_party</Filter>
+    </ClInclude>
+    <ClInclude Include="render\render_camera.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\render_polar_rotation.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\render_utils.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="param\param_config.h">
+      <Filter>param</Filter>
+    </ClInclude>
+    <ClInclude Include="param\param_config_key.h">
+      <Filter>param</Filter>
+    </ClInclude>
+    <ClInclude Include="param\param_holder.h">
+      <Filter>param</Filter>
+    </ClInclude>
+    <ClInclude Include="param\param_type.h">
+      <Filter>param</Filter>
+    </ClInclude>
+    <ClInclude Include="param\param_xml_parser.h">
+      <Filter>param</Filter>
+    </ClInclude>
+    <ClInclude Include="include\global_type.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="console\console_color.h">
+      <Filter>console</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

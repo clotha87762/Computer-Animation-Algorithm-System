@@ -1,0 +1,33 @@
+#!OML:ASF F:\VICON\USERDATA\INSTALL\rory3\rory3.ASF
+:FULLY-SPECIFIED
+:DEGREES
+1
+root 2.43311 17.7352 -16.9175 -3.69342 -7.54765 -1.41553
+lowerback 19.5152 -0.181743 1.52696
+upperback -0.419851 0.529849 3.65146
+thorax -11.4977 0.288756 3.02521
+lowerneck -12.5717 -1.18009 -2.64187
+upperneck 19.2523 -0.335857 -3.58855
+head 8.04382 -0.712885 -0.787946
+rclavicle -1.83379e-014 5.56597e-015
+rhumerus -44.1923 -54.9444 -27.1048
+rradius 67.4915
+rwrist -76.2954
+rhand -19.0982 -4.29258
+rfingers 7.12502
+rthumb 7.21037 -34.1497
+lclavicle -1.83379e-014 5.56597e-015
+lhumerus -48.8542 -1.81523 79.339
+lradius 53.4146
+lwrist 1.27829
+lhand -6.387 52.0142
+lfingers 7.12502
+lthumb 19.4603 81.0603
+rfemur -0.437887 1.4574 25.5969
+rtibia 25.32
+rfoot -19.8548 -16.6008
+rtoes 13.5687
+lfemur -18.0884 -6.14619 -12.8999
+ltibia 28.5989
+lfoot -12.9286 8.74224
+ltoes -20.9757

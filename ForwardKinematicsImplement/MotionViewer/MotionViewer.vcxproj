@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4D225CA4-F6D7-4D27-BD5B-8F535092DFC3}</ProjectGuid>
+    <RootNamespace>MotionViewer</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\boost_1_57_0;.\acclaim;.\console;.\geom;.\gui;.\include;.\kinematics;.\math;.\param;.\render;.\third_party;..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>fltkd.lib;fltkpngd.lib;fltkjpegd.lib;fltkzlibd.lib;fltkgld.lib;fltkimagesd.lib;fltkformsd.lib;glu32.lib;opengl32.lib;comctl32.lib;wsock32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>.\lib\debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\boost_1_57_0;..\;.\;.\acclaim;.\console;.\geom;.\gui;.\include;.\kinematics;.\math;.\param;.\render;.\third_party;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_DEPRECATE;WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>glu32.lib;opengl32.lib;comctl32.lib;wsock32.lib;fltk.lib;fltkforms.lib;fltkgl.lib;fltkimages.lib;fltkjpeg.lib;fltkpng.lib;fltkzlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>.\lib;.\lib\release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="acclaim\acclaim_motion.cc" />
+    <ClCompile Include="acclaim\acclaim_skeleton.cc" />
+    <ClCompile Include="acclaim\posture.cc" />
+    <ClCompile Include="console\console_color.cc" />
+    <ClCompile Include="console\console_log.cc" />
+    <ClCompile Include="geom\geom_arrow.cc" />
+    <ClCompile Include="gui\gl_utils.cc" />
+    <ClCompile Include="gui\gui_display.cc" />
+    <ClCompile Include="gui\gui_gl_window.cc" />
+    <ClCompile Include="gui\gui_main_window.cc" />
+    <ClCompile Include="gui\gui_marker.cc" />
+    <ClCompile Include="gui\gui_mouse.cc" />
+    <ClCompile Include="gui\gui_mouse_event.cc" />
+    <ClCompile Include="gui\gui_screenshot.cc" />
+    <ClCompile Include="gui\gui_signal.cc" />
+    <ClCompile Include="gui\gui_utils.cc" />
+    <ClCompile Include="kinematics\kinematics_artic_idx.cc" />
+    <ClCompile Include="kinematics\kinematics_forward.cc" />
+    <ClCompile Include="kinematics\kinematics_limb_ik.cc" />
+    <ClCompile Include="kinematics\kinematics_pose.cc" />
+    <ClCompile Include="main.cc" />
+    <ClCompile Include="math\math_utils.cc" />
+    <ClCompile Include="param\param_config.cc" />
+    <ClCompile Include="param\param_holder.cc" />
+    <ClCompile Include="param\param_xml_parser.cc" />
+    <ClCompile Include="render\render_camera.cc" />
+    <ClCompile Include="render\render_polar_rotation.cc" />
+    <ClCompile Include="render\render_utils.cc" />
+    <ClCompile Include="third_party\lodepng.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="acclaim\acclaim_body_idx.h" />
+    <ClInclude Include="acclaim\acclaim_bone.h" />
+    <ClInclude Include="acclaim\acclaim_motion.h" />
+    <ClInclude Include="acclaim\acclaim_skeleton.h" />
+    <ClInclude Include="acclaim\posture.h" />
+    <ClInclude Include="console\console_color.h" />
+    <ClInclude Include="console\console_log.h" />
+    <ClInclude Include="geom\geom_arrow.h" />
+    <ClInclude Include="gui\gl_utils.h" />
+    <ClInclude Include="gui\gui_display.h" />
+    <ClInclude Include="gui\gui_gl_window.h" />
+    <ClInclude Include="gui\gui_main_window.h" />
+    <ClInclude Include="gui\gui_marker.h" />
+    <ClInclude Include="gui\gui_mouse.h" />
+    <ClInclude Include="gui\gui_mouse_event.h" />
+    <ClInclude Include="gui\gui_screenshot.h" />
+    <ClInclude Include="gui\gui_signal.h" />
+    <ClInclude Include="gui\gui_type.h" />
+    <ClInclude Include="gui\gui_utils.h" />
+    <ClInclude Include="include\global_type.h" />
+    <ClInclude Include="kinematics\kinematics_artic_idx.h" />
+    <ClInclude Include="kinematics\kinematics_forward.h" />
+    <ClInclude Include="kinematics\kinematics_limb_ik.h" />
+    <ClInclude Include="kinematics\kinematics_pose.h" />
+    <ClInclude Include="kinematics\kinematics_type.h" />
+    <ClInclude Include="math\math_col_vector_3d.h" />
+    <ClInclude Include="math\math_col_vector_6d.h" />
+    <ClInclude Include="math\math_homogeneous_transform.h" />
+    <ClInclude Include="math\math_spatial_temporal_data.h" />
+    <ClInclude Include="math\math_type.h" />
+    <ClInclude Include="math\math_utils.h" />
+    <ClInclude Include="param\param_config.h" />
+    <ClInclude Include="param\param_config_key.h" />
+    <ClInclude Include="param\param_holder.h" />
+    <ClInclude Include="param\param_type.h" />
+    <ClInclude Include="param\param_xml_parser.h" />
+    <ClInclude Include="render\render_camera.h" />
+    <ClInclude Include="render\render_polar_rotation.h" />
+    <ClInclude Include="render\render_utils.h" />
+    <ClInclude Include="third_party\lodepng.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

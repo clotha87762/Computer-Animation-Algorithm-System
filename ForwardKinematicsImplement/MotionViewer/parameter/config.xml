@@ -1,0 +1,22 @@
+<config>
+    <!--The time step to play the motion caputre file-->
+    <time_step>0.01</time_step>
+    <!--footskate_clean_time_step>0.1</footskate_clean_time_step-->
+    <frame_increment>1</frame_increment>
+    <!--keyFrameInterval>50</keyFrameInterval-->
+    <bone_radius>0.025</bone_radius>
+    <axis_scale>0.3</axis_scale>
+    <drift_up>17.0</drift_up>
+    <ik_step>1.0</ik_step>
+    <ik_error>0.0001</ik_error>
+    <ik_start_bone_id>6</ik_start_bone_id>
+    <ik_end_bone_id>9</ik_end_bone_id>
+    <ik_marker_radius>0.2</ik_marker_radius> 
+    <ik_target_x>-0.0958129</ik_target_x>
+    <ik_target_y>0.179021</ik_target_y>
+    <ik_target_z>-0.900271</ik_target_z>
+    <ik_color_r>100</ik_color_r>
+    <ik_color_g>100</ik_color_g>
+    <ik_color_b>229</ik_color_b>
+    <result_picture_path>../result_picture/</result_picture_path>
+</config>

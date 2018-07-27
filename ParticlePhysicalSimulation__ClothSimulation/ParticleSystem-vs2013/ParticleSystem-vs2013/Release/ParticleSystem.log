@@ -1,0 +1,40 @@
+﻿Build started 2015/10/29 下午 09:44:54.
+     1>Project "C:\Users\USER\Desktop\104上課程\電腦動畫與特效\Assignment1\ParticleSystem-vs2013\ParticleSystem-vs2013\ParticleSystem.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I./Config /I./Image /I./OpenGL /I./Math /I./Include /I./MassSpringSystem /I./ /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp- /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MassSpringSystem\CMassSpringSystem.cpp
+         CMassSpringSystem.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\USER\Desktop\104上課程\電腦動畫與特效\Assignment1\ParticleSystem-vs2013\ParticleSystem-vs2013\Release\ParticleSystem.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\USER\Desktop\104上課程\電腦動畫與特效\Assignment1\ParticleSystem-vs2013\ParticleSystem-vs2013\Release\ParticleSystem.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\USER\Desktop\104上課程\電腦動畫與特效\Assignment1\ParticleSystem-vs2013\ParticleSystem-vs2013\Release\ParticleSystem.lib" /MACHINE:X86 /SAFESEH Release\CBmp.obj
+         Release\BallModel.obj
+         Release\CMassSpringSystem.obj
+         Release\GoalNetModel.obj
+         Release\CCamera.obj
+         Release\performanceCounter.obj
+         Release\stdafx.obj
+         Release\Vector3d.obj
+         Release\CParticle.obj
+         Release\CSpring.obj
+         Release\configFile.obj
+         Release\Render_API.obj
+         Release\ParticleSystemMain.obj
+         Generating code
+         Finished generating code
+     1>glui32.lib(glui.obj) : warning LNK4204: 'C:\Users\USER\Desktop\104上課程\電腦動畫與特效\Assignment1\ParticleSystem-vs2013\ParticleSystem-vs2013\Release\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_bitmap_img_data.obj) : warning LNK4204: 'C:\Users\USER\Desktop\104上課程\電腦動畫與特效\Assignment1\ParticleSystem-vs2013\ParticleSystem-vs2013\Release\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_bitmaps.obj) : warning LNK4204: 'C:\Users\USER\Desktop\104上課程\電腦動畫與特效\Assignment1\ParticleSystem-vs2013\ParticleSystem-vs2013\Release\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_button.obj) : warning LNK4204: 'C:\Users\USER\Desktop\104上課程\電腦動畫與特效\Assignment1\ParticleSystem-vs2013\ParticleSystem-vs2013\Release\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_checkbox.obj) : warning LNK4204: 'C:\Users\USER\Desktop\104上課程\電腦動畫與特效\Assignment1\ParticleSystem-vs2013\ParticleSystem-vs2013\Release\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_control.obj) : warning LNK4204: 'C:\Users\USER\Desktop\104上課程\電腦動畫與特效\Assignment1\ParticleSystem-vs2013\ParticleSystem-vs2013\Release\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_edittext.obj) : warning LNK4204: 'C:\Users\USER\Desktop\104上課程\電腦動畫與特效\Assignment1\ParticleSystem-vs2013\ParticleSystem-vs2013\Release\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_listbox.obj) : warning LNK4204: 'C:\Users\USER\Desktop\104上課程\電腦動畫與特效\Assignment1\ParticleSystem-vs2013\ParticleSystem-vs2013\Release\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_node.obj) : warning LNK4204: 'C:\Users\USER\Desktop\104上課程\電腦動畫與特效\Assignment1\ParticleSystem-vs2013\ParticleSystem-vs2013\Release\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_panel.obj) : warning LNK4204: 'C:\Users\USER\Desktop\104上課程\電腦動畫與特效\Assignment1\ParticleSystem-vs2013\ParticleSystem-vs2013\Release\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_spinner.obj) : warning LNK4204: 'C:\Users\USER\Desktop\104上課程\電腦動畫與特效\Assignment1\ParticleSystem-vs2013\ParticleSystem-vs2013\Release\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_string.obj) : warning LNK4204: 'C:\Users\USER\Desktop\104上課程\電腦動畫與特效\Assignment1\ParticleSystem-vs2013\ParticleSystem-vs2013\Release\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_window.obj) : warning LNK4204: 'C:\Users\USER\Desktop\104上課程\電腦動畫與特效\Assignment1\ParticleSystem-vs2013\ParticleSystem-vs2013\Release\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+         ParticleSystem.vcxproj -> C:\Users\USER\Desktop\104上課程\電腦動畫與特效\Assignment1\ParticleSystem-vs2013\ParticleSystem-vs2013\Release\ParticleSystem.exe
+     1>Done Building Project "C:\Users\USER\Desktop\104上課程\電腦動畫與特效\Assignment1\ParticleSystem-vs2013\ParticleSystem-vs2013\ParticleSystem.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.77

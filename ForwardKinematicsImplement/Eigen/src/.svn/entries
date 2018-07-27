@@ -1,0 +1,128 @@
+10
+
+dir
+87
+http://140.113.203.162:8080/svn/AnimationCourse/ComputerAnimationFramework/MotionInterpolator/Eigen/src
+http://140.113.203.162:8080/svn/AnimationCourse
+
+
+
+2014-08-20T11:49:51.483179Z
+38
+oppenheimhu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+b6f0e801-13bd-b04a-a272-faef639601bb
+
+LU
+dir
+
+plugins
+dir
+
+Cholesky
+dir
+
+Householder
+dir
+
+CholmodSupport
+dir
+
+QR
+dir
+
+UmfPackSupport
+dir
+
+Jacobi
+dir
+
+Core
+dir
+
+misc
+dir
+
+Geometry
+dir
+
+SuperLUSupport
+dir
+
+SVD
+dir
+
+OrderingMethods
+dir
+
+PardisoSupport
+dir
+
+SparseCholesky
+dir
+
+StlSupport
+dir
+
+PaStiXSupport
+dir
+
+IterativeLinearSolvers
+dir
+
+Eigen2Support
+dir
+
+SparseCore
+dir
+
+Eigenvalues
+dir
+
+CMakeLists.txt
+file
+
+
+
+
+2015-01-08T01:46:19.658448Z
+b06d56dc006404f984c4bdba6ed4b322
+2014-08-20T11:49:51.483179Z
+38
+oppenheimhu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+315
+

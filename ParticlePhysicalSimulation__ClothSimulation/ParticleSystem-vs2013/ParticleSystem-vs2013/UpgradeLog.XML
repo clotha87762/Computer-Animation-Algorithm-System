@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ParticleSystem">
+</Property><Property Name="方案檔" Value="D:\homework\101A\ComputerAnimationLecture\assignment1\ParticleSystem\ParticleSystem.sln">
+</Property><Property Name="使用者選項檔" Value="D:\homework\101A\ComputerAnimationLecture\assignment1\ParticleSystem\ParticleSystem.suo">
+</Property><Property Name="Date" Value="2012年10月19日">
+</Property><Property Name="Time" Value="上午 10:28">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ParticleSystem.sln" Description="檔案已成功備份為 D:\homework\101A\ComputerAnimationLecture\assignment1\ParticleSystem\ParticleSystem.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="ParticleSystem.suo" Description="檔案已成功備份為 D:\homework\101A\ComputerAnimationLecture\assignment1\ParticleSystem\ParticleSystem.suo.old">
+</Event><Event ErrorLevel="0" Project="ParticleSystem" Source="ParticleSystem.vcproj" Description="Converting project file 'd:\homework\101A\ComputerAnimationLecture\assignment1\ParticleSystem\ParticleSystem.vcproj'.">
+</Event><Event ErrorLevel="1" Project="ParticleSystem" Source="ParticleSystem.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="ParticleSystem" Source="ParticleSystem.vcproj" Description="Done converting to new project file 'd:\homework\101A\ComputerAnimationLecture\assignment1\ParticleSystem\ParticleSystem.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ParticleSystem" Source="ParticleSystem.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ParticleSystem.sln" Description="方案轉換成功">
+</Event><Event ErrorLevel="3" Project="" Source="ParticleSystem.sln" Description="Converted">
+</Event></UpgradeLog>

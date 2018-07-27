@@ -1,0 +1,4 @@
+我把一開始的IK跟有做Real Time的IK分了開來
+
+助教一開始可以先直接跑沒有加速的IK，之後去kinematics_numerical_ik.h裡面把
+isRealTime設成TRUE(大寫)；就可以看到我做的REAL TIME IK。

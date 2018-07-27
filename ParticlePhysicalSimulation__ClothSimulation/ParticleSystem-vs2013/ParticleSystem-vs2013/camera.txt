@@ -1,0 +1,5 @@
+EyePos 8 6 8
+EyeUpDir 0 1 0
+EyeAtPos 0 0 0
+PerspectiveInfo 45 1.33 1 100
+ViewPort 0 0 800 600

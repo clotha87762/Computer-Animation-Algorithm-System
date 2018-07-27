@@ -1,0 +1,41 @@
+﻿Build started 2015/11/16 下午 12:44:13.
+     1>Project "C:\Users\USER\Desktop\104course\ComputerAnimation\Assignment2\MotionViewer-vs2013\MotionViewer\MotionViewer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\boost_1_57_0 /I.\acclaim /I.\console /I.\geom /I.\gui /I.\include /I.\kinematics /I.\math /I.\param /I.\render /I.\third_party /I..\ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt kinematics\kinematics_forward.cc
+         kinematics_forward.cc
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\USER\Desktop\104course\ComputerAnimation\Assignment2\MotionViewer-vs2013\Debug\MotionViewer.exe" /INCREMENTAL /NOLOGO /LIBPATH:.\lib\debug fltkd.lib fltkpngd.lib fltkjpegd.lib fltkzlibd.lib fltkgld.lib fltkimagesd.lib fltkformsd.lib glu32.lib opengl32.lib comctl32.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\USER\Desktop\104course\ComputerAnimation\Assignment2\MotionViewer-vs2013\Debug\MotionViewer.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\USER\Desktop\104course\ComputerAnimation\Assignment2\MotionViewer-vs2013\Debug\MotionViewer.lib" /MACHINE:X86 Debug\acclaim_motion.obj
+         Debug\acclaim_skeleton.obj
+         Debug\posture.obj
+         Debug\console_color.obj
+         Debug\console_log.obj
+         Debug\geom_arrow.obj
+         Debug\gl_utils.obj
+         Debug\gui_display.obj
+         Debug\gui_gl_window.obj
+         Debug\gui_main_window.obj
+         Debug\gui_marker.obj
+         Debug\gui_mouse.obj
+         Debug\gui_mouse_event.obj
+         Debug\gui_screenshot.obj
+         Debug\gui_signal.obj
+         Debug\gui_utils.obj
+         Debug\kinematics_artic_idx.obj
+         Debug\kinematics_forward.obj
+         Debug\kinematics_limb_ik.obj
+         Debug\kinematics_pose.obj
+         Debug\main.obj
+         Debug\math_utils.obj
+         Debug\param_config.obj
+         Debug\param_holder.obj
+         Debug\param_xml_parser.obj
+         Debug\render_camera.obj
+         Debug\render_polar_rotation.obj
+         Debug\render_utils.obj
+         Debug\lodepng.obj
+         MotionViewer.vcxproj -> C:\Users\USER\Desktop\104course\ComputerAnimation\Assignment2\MotionViewer-vs2013\Debug\MotionViewer.exe
+     1>Done Building Project "C:\Users\USER\Desktop\104course\ComputerAnimation\Assignment2\MotionViewer-vs2013\MotionViewer\MotionViewer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.78
