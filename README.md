@@ -6,7 +6,7 @@ Implement particle physical simulation /
 
 cloth physic simulation /
 
-![Image](image1.png)
+![Image1](image1.png)
 
 forward kinematics / 
 
@@ -14,4 +14,4 @@ forward kinematics /
 inverse kinematics
 
 
-![Image](image2.png)
+![Image2](image2.png)
