@@ -6,7 +6,7 @@ Implement particle physical simulation /
 
 cloth physic simulation /
 
-![Image1](image1.png)
+![Image1](image.png)
 
 forward kinematics / 
 
